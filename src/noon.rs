@@ -24,6 +24,13 @@ pub fn study_session(subject: &str,duration: i32, completed: bool) {
 }
 
 pub fn study_duration(hours: i32) -> i32 {
+    let mut minutes = 30;
+    if minutes == 30 {
+        minutes += 10;
+        let minutes = minutes - 20;
+        println!("{minutes}");
+    }
+    println!("{minutes}");
     if hours <= 0 {
         0
     } else {
@@ -43,3 +50,5 @@ pub fn calculate_pay(hours: i32, rate: i32) -> i32 {
         hours * rate
     }
 }
+
+
