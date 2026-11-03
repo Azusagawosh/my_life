@@ -41,3 +41,25 @@ pub fn change_name(name: &mut String) {
     println!("{name}");
     name.push_str(" Rust");
 }
+
+
+pub fn mass() {
+    let num = [10, 20, 30, 40, 50, 60];
+    let kor = ("azusagawosh", 19, true);
+    let name = kor.0;
+    let age = kor.1;
+    let status = kor.2;
+    for element in num {
+        if element == 30 {
+            println!("тридцать");
+        }
+    }
+}
+
+pub fn call(mass: [i32; 6]) -> i32 {
+    let mut total = 0;
+    for element in mass {
+        total += element;
+    }
+    total
+}
