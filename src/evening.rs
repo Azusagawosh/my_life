@@ -63,3 +63,13 @@ pub fn call(mass: [i32; 6]) -> i32 {
     }
     total
 }
+
+pub fn count_even(mas: [i32; 6]) -> i32 {
+    let mut count = 0;
+    for element in mas {
+        if element % 2 == 0 {
+            count += 1;
+        }
+    }
+    count
+}
