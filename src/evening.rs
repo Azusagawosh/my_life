@@ -83,3 +83,13 @@ pub fn mu(sum: [i32; 6]) -> i32 {
     }
     count 
 }
+
+pub fn get_first_half(numbers: &[i32]) -> &[i32] {
+    let half = numbers.len() / 2;
+    &numbers[0..half]
+}
+
+pub fn get_last_half(numbers: &[i32]) -> &[i32] {
+    let half = numbers.len() / 2;
+    &numbers[half..]
+}
