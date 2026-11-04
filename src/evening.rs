@@ -53,7 +53,7 @@ pub fn mass() {
         if element == 30 {
             println!("тридцать");
         }
-    }
+    } 
 }
 
 pub fn call(mass: [i32; 6]) -> i32 {
@@ -72,4 +72,14 @@ pub fn count_even(mas: [i32; 6]) -> i32 {
         }
     }
     count
+}
+
+pub fn mu(sum: [i32; 6]) -> i32 {
+    let mut count = 0;
+    for element in sum {
+        if element >= 200 {
+            count * 2;
+        }
+    }
+    count 
 }
