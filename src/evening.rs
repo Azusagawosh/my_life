@@ -93,3 +93,79 @@ pub fn get_last_half(numbers: &[i32]) -> &[i32] {
     let half = numbers.len() / 2;
     &numbers[half..]
 }
+
+
+pub fn manage_numbers() -> Vec<i32> {
+    let mut num: Vec<i32> = Vec::new();
+    num.push(10);
+    num.push(20);
+    num.push(30);
+    num.push(40);
+    num.pop();
+    num.push(50);
+    num
+}
+
+
+pub fn analyze_numbers(numbers: Vec<i32>) -> usize {
+    if numbers.is_empty() {
+        0
+    } else {
+        numbers.len()
+    }
+} 
+
+
+pub fn get_element(numbers: &[i32], index: usize) -> Option<&i32> {
+    numbers.get(index)
+}
+
+
+pub fn sum_numbers(numbers: &[i32]) -> i32 {
+    let mut total = 0;
+    for number in numbers { 
+        total += *number;
+    }
+    total
+}
+
+
+pub fn double_numbers(numbers: &mut [i32]) {
+    for number in numbers.iter_mut() { 
+        *number *= 2;
+    }
+}
+
+pub fn count_even(numbers: &[i32]) -> usize {
+    let mut count = 0;
+    for element in numbers {
+        if element % 2 == 0 {
+            count += 1; 
+        }
+    }
+    count
+}
+
+
+pub fn count_positive(numbers: &[i32]) -> usize {
+    let mut tot = 0;
+    for element in numbers {
+        if element > 0 {
+            tot += 1;
+        }
+    }
+    tot
+}
+
+
+pub fn find_max(numbers: &[i32]) -> Option<i32> {
+    let Some(mut max) = numbers.first() else {
+    return None;
+};
+    for element in numbers {
+        if element > max {
+            max = element;
+        }
+    }
+    Some(*max)
+}
