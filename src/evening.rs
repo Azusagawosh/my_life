@@ -177,3 +177,26 @@ pub fn mn() {
     let d = a + " " + &b;
     println!("{c} | {d}");
 }
+
+
+pub fn srt() {
+    let st = String::from("azusagawosh");
+    println!("{}", shout(&st));
+}
+
+pub fn tr() {
+    let mut s = String::new();
+    s.push_str("hello");
+    s.push_str(" azusagawosh");
+    s.push('!');
+    println!("{}", s);
+} 
+
+
+pub fn mass() {
+    let s = [0; 10];
+    println!("{:?}", s);
+}
+
+
+
