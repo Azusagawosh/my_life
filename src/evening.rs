@@ -167,5 +167,13 @@ pub fn find_max(numbers: &[i32]) -> Option<i32> {
             max = element;
         }
     }
-    Some(*max)
+    Some
+}
+
+pub fn mn() {
+    let a = String::from("Hello");
+    let b = String::from("azusagawosh");
+    let c = format!("{a}, {b}");
+    let d = a + " " + &b;
+    println!("{c} | {d}");
 }
