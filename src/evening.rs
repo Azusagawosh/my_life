@@ -63,7 +63,7 @@ pub fn call(mass: [i32; 6]) -> i32 {
     }
     total
 }
-
+/*
 pub fn count_even(mas: [i32; 6]) -> i32 {
     let mut count = 0;
     for element in mas {
@@ -73,7 +73,7 @@ pub fn count_even(mas: [i32; 6]) -> i32 {
     }
     count
 }
-
+*/
 pub fn mu(sum: [i32; 6]) -> i32 {
     let mut count = 0;
     for element in sum {
@@ -146,7 +146,7 @@ pub fn count_even(numbers: &[i32]) -> usize {
     count
 }
 
-
+/*
 pub fn count_positive(numbers: &[i32]) -> usize {
     let mut tot = 0;
     for element in numbers {
@@ -156,8 +156,8 @@ pub fn count_positive(numbers: &[i32]) -> usize {
     }
     tot
 }
-
-
+*/
+/*
 pub fn find_max(numbers: &[i32]) -> Option<i32> {
     let Some(mut max) = numbers.first() else {
     return None;
@@ -169,7 +169,7 @@ pub fn find_max(numbers: &[i32]) -> Option<i32> {
     }
     Some
 }
-
+*/
 pub fn mn() {
     let a = String::from("Hello");
     let b = String::from("azusagawosh");
@@ -178,12 +178,12 @@ pub fn mn() {
     println!("{c} | {d}");
 }
 
-
+/*
 pub fn srt() {
     let st = String::from("azusagawosh");
     println!("{}", shout(&st));
 }
-
+*/
 pub fn tr() {
     let mut s = String::new();
     s.push_str("hello");
@@ -192,11 +192,11 @@ pub fn tr() {
     println!("{}", s);
 } 
 
-
+/*
 pub fn mass() {
     let s = [0; 10];
     println!("{:?}", s);
 }
-
+*/
 
 

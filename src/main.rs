@@ -4,8 +4,10 @@ mod noon;
 mod night;
 mod study;
 mod report;
+mod pract;
 
 fn main() {
+    /*
     morning::wake_up();
     morning::coffee();
     noon::go_to("12:00", "колледж");
@@ -22,6 +24,8 @@ fn main() {
     println!("{progress}");
     let pro = weekly_progress(30, 60, 90);
     println!("{pro}");
+*/
+    pract::clculator();
 }
 
 
