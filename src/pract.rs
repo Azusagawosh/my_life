@@ -21,3 +21,16 @@ pub fn clculator() {
     let total = date - date1;
     println!("{total}");
 }
+
+
+
+pub fn sl() {
+    let s = String::from("Hello World");
+    let d = &s[0..5];
+    let n = &s[6..11];
+    println!("{d}, {n}");
+
+    let mass = [10, 20, 30, 40, 50, 60, 70, 80, 90];
+    let f = &mass[0..=8];
+    println!("{:?}", f);
+}

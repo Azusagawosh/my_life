@@ -25,7 +25,8 @@ fn main() {
     let pro = weekly_progress(30, 60, 90);
     println!("{pro}");
 */
-    pract::clculator();
+    //pract::clculator();
+    pract::sl();
 }
 
 
