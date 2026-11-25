@@ -41,6 +41,7 @@ fn calculate_progress() -> i32 {
     total += 30;
     total += 60;
     total += 90;
+    println!("hello world");
     total 
 }
 
