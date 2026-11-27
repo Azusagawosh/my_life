@@ -199,4 +199,6 @@ pub fn mass() {
 }
 */
 
-
+fn fff () {
+    println!("fff");
+}
