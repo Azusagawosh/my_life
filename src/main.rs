@@ -27,6 +27,7 @@ fn main() {
 */
     //pract::clculator();
     pract::sl();
+    println!("Hello World");
 }
 
 
